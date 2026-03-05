@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start Expo (tunnel)",
+      "type": "shell",
+      "command": "cd /workspaces/deal-ai-finder && npx expo login -u fabianimv -p 'F1i9m9v6.-' && npx expo start --tunnel",
+      "group": "build",
+      "isBackground": true,
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
